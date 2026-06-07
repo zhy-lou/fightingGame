@@ -80,6 +80,8 @@ public class Login {
 //            System.out.println("pass"+password);
             if (rightPassword.equals(password)){
                 System.out.println("登录成功，游戏启动！");
+                FightingGame fg =new FightingGame();
+                fg.gameStart(username);
                 break;
             }else {
                 System.out.println("登录失败，密码错误！");
