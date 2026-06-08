@@ -6,10 +6,7 @@ import zhy.ui.Login;
 public class App {
     static void main() {
 
-//       Login l =new Login();
-//       l.start();
-
-       FightingGame fg =new FightingGame();
-       fg.gameStart("zhangsan");
+      Login l =new Login();
+      l.start();
     }
 }
