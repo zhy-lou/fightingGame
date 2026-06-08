@@ -129,8 +129,8 @@ public class FightingGame {
         System.out.println("====="+enemy.name +"的回合=====");
 
         String action ="普通攻击";
-        Random r =new Random(9);
-        int num = r.nextInt();
+        Random r =new Random();
+        int num = r.nextInt(9);
         if (num >=4){
             action =enemy.skill;
         }
