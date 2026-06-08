@@ -82,9 +82,8 @@ public class FightingGame {
             if (player.isAlive()){
                 int healHP = r.nextInt(20, 41);
                 player.heal(healHP);
-                System.out.println("\uD83C\uDF89 你击败了 "+enemy.name+"！");
                 System.out.println("\uD83D\uDC9A 战斗结束！你恢复了 "+healHP+" 点生命值");
-                System.out.println("\uD83C\uDFC6 当前胜场: "+wins);
+                System.out.println("\uD83C\uDFC6 当前胜场: "+ wins);
                 System.out.println("═══════════════════════════════════════");
             }
 
